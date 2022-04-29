@@ -11,13 +11,12 @@ const Home: NextPage = () => {
             </Head>
 
             <main className={styles.main}>
-                <h1 className={styles.title}>
-                    Checkout out open source{' '}
-                    <a href="https://github.com/phoenixVS/valentyn-js-test">
-                        repo
-                    </a>{' '}
-                    at github
-                </h1>
+                <a
+                    href="https://github.com/phoenixVS/valentyn-js-test"
+                    className={styles.neonText}
+                >
+                    Checkout out open source repo at github
+                </a>
             </main>
         </div>
     )
