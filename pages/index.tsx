@@ -15,7 +15,7 @@ const Home: NextPage = () => {
                     href="https://github.com/phoenixVS/valentyn-js-test"
                     className={styles.neonText}
                 >
-                    Checkout out open source repo at github
+                    Checkout out repo at github
                 </a>
             </main>
         </div>
